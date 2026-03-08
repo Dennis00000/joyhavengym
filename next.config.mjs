@@ -17,7 +17,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
-    webpackBuildWorker: true,
+    // webpackBuildWorker disabled - can trigger RangeError with long/iCloud paths
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
